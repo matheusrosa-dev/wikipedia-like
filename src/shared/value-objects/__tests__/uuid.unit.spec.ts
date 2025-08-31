@@ -1,5 +1,5 @@
 import { validate as validateUuid } from "uuid";
-import { Uuid, UuidInvalidError } from "../index.ts";
+import { Uuid, UuidInvalidError } from "..";
 
 describe("Uuid Unit Tests", () => {
   const validateSpy = jest.spyOn(Uuid.prototype, "validate");

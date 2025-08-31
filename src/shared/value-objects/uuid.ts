@@ -1,6 +1,6 @@
 import * as uuid from "uuid";
-import { ValueObject } from "./value-object.ts";
-import { DomainError } from "../classes/index.ts";
+import { ValueObject } from "./value-object";
+import { DomainError } from "../classes";
 
 export class UuidInvalidError extends DomainError {
   constructor() {

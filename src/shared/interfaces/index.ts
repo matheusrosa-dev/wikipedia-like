@@ -1,1 +1,1 @@
-export type { IEntity } from "./entity.ts";
+export type { IEntity } from "./entity";
