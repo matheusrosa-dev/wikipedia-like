@@ -1,11 +1,11 @@
 {
   "name": "wikipedia-like",
-  "type": "module",
   "main": "index.js",
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
   "license": "ISC",
   "scripts": {
-    "start": "node --experimental-strip-types --no-warnings src/server.ts",
-    "dev": "node --experimental-strip-types --no-warnings --watch src/server.ts",
     "test:unit": "jest unit.spec.ts$",
     "test:int": "jest int.spec.ts$ --runInBand",
     "test": "npm run test:unit && npm run test:int"
@@ -16,11 +16,11 @@
     "@types/node": "^24.3.0",
     "jest": "^30.1.1",
     "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "ts-node": "^10.9.2",
     "uuid": "^11.1.0",
     "yup": "^1.7.0"
   }

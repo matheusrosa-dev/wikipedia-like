@@ -1,1 +1,1 @@
-export { DomainError } from "./domain-error.ts";
+export { DomainError } from "./domain-error";

@@ -1,4 +1,4 @@
-import { Uuid } from "../value-objects/index.ts";
+import { Uuid } from "../value-objects";
 
 export interface IEntity {
   id: Uuid;

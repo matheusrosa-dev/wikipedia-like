@@ -1,3 +1,2 @@
-export * from "./uuid.ts";
-export * from "./value-object.ts";
-export * from "./opaque-token.ts";
+export * from "./uuid";
+export * from "./value-object";

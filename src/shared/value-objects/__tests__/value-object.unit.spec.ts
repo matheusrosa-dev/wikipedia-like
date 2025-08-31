@@ -1,4 +1,4 @@
-import { ValueObject } from "../index.ts";
+import { ValueObject } from "..";
 
 class StringValueObject extends ValueObject {
   constructor(public value: string) {
