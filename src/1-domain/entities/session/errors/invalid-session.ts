@@ -1,4 +1,4 @@
-import { DomainError } from "../../../../shared/classes/index.ts";
+import { DomainError } from "../../../../shared/classes";
 
 export class InvalidSession extends DomainError {
   constructor() {

@@ -1,5 +1,5 @@
-import { validateOpaqueToken } from "../../utils/index.ts";
-import { OpaqueToken, OpaqueTokenInvalidError } from "../index.ts";
+import { validateOpaqueToken } from "../../utils";
+import { OpaqueToken, OpaqueTokenInvalidError } from "..";
 
 describe("Opaque Token Unit Tests", () => {
   const validateSpy = jest.spyOn(OpaqueToken.prototype, "validate");

@@ -1,1 +1,1 @@
-export { validateOpaqueToken } from "./opaque-token.ts";
+export { validateOpaqueToken } from "./opaque-token";

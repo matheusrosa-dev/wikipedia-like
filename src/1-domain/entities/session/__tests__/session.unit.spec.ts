@@ -1,5 +1,5 @@
-import { Uuid, OpaqueToken } from "../../../../shared/value-objects/index.ts";
-import { Session } from "../session.ts";
+import { Uuid, OpaqueToken } from "../../../../shared/value-objects";
+import { Session } from "../session";
 
 describe("Session Unit Tests", () => {
   it("Should instance a valid session", () => {

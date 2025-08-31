@@ -1,1 +1,1 @@
-export { InvalidSession } from "./invalid-session.ts";
+export { InvalidSession } from "./invalid-session";

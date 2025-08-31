@@ -1,6 +1,6 @@
-import { DomainError } from "../classes/index.ts";
-import { validateOpaqueToken } from "../utils/index.ts";
-import { ValueObject } from "./value-object.ts";
+import { DomainError } from "../classes";
+import { validateOpaqueToken } from "../utils";
+import { ValueObject } from "./value-object";
 import crypto from "crypto";
 
 export class OpaqueTokenInvalidError extends DomainError {

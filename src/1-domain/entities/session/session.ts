@@ -1,7 +1,7 @@
-import { IEntity } from "../../../shared/interfaces/index.ts";
-import { OpaqueToken, Uuid } from "../../../shared/value-objects/index.ts";
+import { IEntity } from "../../../shared/interfaces";
+import { OpaqueToken, Uuid } from "../../../shared/value-objects";
 import * as yup from "yup";
-import { InvalidSession } from "./errors/index.ts";
+import { InvalidSession } from "./errors";
 
 type Props = {
   id: Uuid;
