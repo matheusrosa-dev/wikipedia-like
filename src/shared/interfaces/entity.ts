@@ -1,6 +1,6 @@
-import { ValueObject } from "../value-objects/index.ts";
+import { Uuid } from "../value-objects/index.ts";
 
-export interface IEntity<Id extends ValueObject> {
-  id: Id;
+export interface IEntity {
+  id: Uuid;
   toJSON(): object;
 }
